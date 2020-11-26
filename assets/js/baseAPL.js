@@ -16,7 +16,7 @@ $.ajaxPrefilter(function (options) {
     // 登录拦截
     options.complete = function (res) {
         // 请求失败且身份认证失败，强制清除本地存储tokne，并强制返回login.html
-        console.log(res);
+        // console.log(res);
         // 判断
         if (res.responseJSON.status !== 0 && res.responseJSON.message === "身份认证失败！") {
             // 清除tokne

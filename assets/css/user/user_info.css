@@ -1,0 +1,16 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* 局部样式 */
+body {
+    padding: 15px;
+    background-color: #f2f3f5;
+}
+
+/* 输入框宽度 */
+.layui-form {
+    width: 500px;
+}

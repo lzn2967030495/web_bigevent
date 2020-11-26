@@ -11,6 +11,9 @@ $(function () {
             localStorage.removeItem('token')
             // 页面跳转
             location.href = "/login.html"
+            // location.assign("/login.html");
+            // 不会有历史记录返回
+            // location.replace("/login.html");
             // 关闭询问框
             layer.close(index);
         });
